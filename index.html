@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <meta
+      name="description"
+      content="practica de maquetacion de paginas web, maqueta, estructuracion de sitio web"
+    />
+    <meta
+      name="keywords"
+      content="maqueta, estructura, pagina web, proyecto de programacion"
+    />
+    <meta name="author" content="Jhon Cordero" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica de maquetacion</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top__header">
+      <nav class="nav__bar nav__left">
+        <ul class="nav__list profile">
+          <li class="nav__item profile__item">
+            <span class="material-symbols-outlined">accessible_menu</span>
+          </li>
+          <li class="nav__item profile__item">
+            <a href="#">profile name</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav__bar nav__right">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#">Projects</a></li>
+          <li class="nav__item"><a href="#">Articles</a></li>
+          <li class="nav__item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hero class="hero">
+      <h1>Front End Developer</h1>
+      <span>html only with proper layaout, no styling</span>
+
+      <label for="colors-mode" class="material-symbols-outlined moon">bedtime
+        <input type="checkbox" name="dark-mode" id="colors-mode">
+      </label>
+      <label for="colors-mode" class="material-symbols-outlined sun">sunny
+      </label>
+    </hero>
+    <main class="main">
+      <nav class="main__nav">
+        <h2>Projects</h2>
+        <ul class="nav__list aside__ul">
+          <li class="nav__item aside__nav">
+            <a href="#">HTML only portafolio</a>
+          </li>
+          <li class="nav__item"><a href="#">Calculator</a></li>
+          <li class="nav__item"><a href="#">Quizz App</a></li>
+          <li class="nav__item"><a href="#">Countdown Timer</a></li>
+          <li class="nav__item"><a href="#">Product Upcoming Page</a></li>
+        </ul>
+      </nav>
+      <article class="main__experience">
+        <h2>work experience</h2>
+        <span>roadmap.sh</span>
+        <p>solved all the front end projects</p>
+        <a href="#">Visit my profile</a>
+      </article>
+      <section class="main__education">
+        <h2>Education</h2>
+        <p>
+          Graduado de ingeniero en informática en la Universidad centro
+          occidental lisandro alvarado
+        </p>
+        <p>Cursos que he tomado:</p>
+        <ul class="education__list">
+          <li class="list__item">Html y css</li>
+          <li class="list__item">Javascript</li>
+          <li class="list__item">PossgreSQL</li>
+        </ul>
+      </section>
+      <section class="main__projects">
+        <h2>Contribucionesen proyectos</h2>
+        <p>he contribuido en 50 proyectos de diferentes empresas</p>
+        <a href="#">Visit the projects</a>
+      </section>
+    </main>
+    <section class="section__review">
+      <h2>Reviews from my teachers</h2>
+      <div class="container__car">
+        <div class="car__review">
+          Jhon cordero fue un estudiante brutal y brillante
+        </div>
+        <div class="car__review">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate
+        </div>
+        <div class="car__review">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat,
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <fieldset>
+        <legend>formulario de contacto</legend>
+        <form action="get">
+            <label for="correo">Correo</label>
+            <input id="correo" type="text" placeholder="xxxx@gmail.com">
+            <label for="text-area-mensaje">
+                Deja tu comentario
+            </label>
+            <textarea name="comentario" id="text-area-mensaje" placeholder="agus soy pro">
+                
+            </textarea>
+        </form>
+      </fieldset>
+    </section>
+    <footer class="footer">
+      <h3>@todos los derechos reservados</h3>
+    </footer>
+  </body>
+</html>

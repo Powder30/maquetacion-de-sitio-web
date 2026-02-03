@@ -83,7 +83,9 @@ a:visited{
 }
 .hero label{
     user-select: none;
+    
 }
+
 #colors-mode{
     display: none;
 }

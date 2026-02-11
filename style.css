@@ -266,7 +266,7 @@ textarea{
     background-color: var(--shadow);
 
 }
-.section__review,.contact{
+.car__review,.contact{
     animation: aparecer both ease-in-out;
     animation-timeline: view() ;
     animation-range: cover 20% cover 40%;
